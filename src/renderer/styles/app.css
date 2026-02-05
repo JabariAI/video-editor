@@ -1,0 +1,16 @@
+:root { color-scheme: dark; font-family: Inter, system-ui, sans-serif; }
+body { margin: 0; background: #101217; color: #f2f4f7; }
+button { background: #2c4fff; border: 0; color: #fff; padding: 0.5rem 0.8rem; border-radius: 6px; }
+.app-shell { display: grid; grid-template-rows: auto 1fr auto; min-height: 100vh; gap: 1rem; padding: 1rem; }
+.topbar, .panel { background: #171b24; border: 1px solid #2a3142; border-radius: 10px; padding: 0.75rem; }
+.topbar { display: flex; justify-content: space-between; align-items: center; }
+.actions { display: flex; gap: 0.5rem; align-items: center; }
+.workspace { display: grid; grid-template-columns: 300px 1fr; gap: 1rem; }
+.media-grid { display: grid; gap: 0.5rem; max-height: 400px; overflow: auto; }
+.media-card { background: #111827; border-radius: 6px; padding: 0.5rem; border: 1px solid #293043; }
+.missing { color: #ff8b8b; }
+.preview-panel canvas { width: 100%; border: 1px dashed #55607a; background: #0a0c10; }
+.timeline-grid { display: grid; gap: 0.5rem; }
+.track-row { display: grid; grid-template-columns: 130px 1fr; gap: 0.5rem; align-items: center; }
+.track-lane { position: relative; height: 48px; border: 1px solid #2a3142; border-radius: 6px; background: #0d1016; overflow: hidden; }
+.clip { position: absolute; top: 6px; height: 34px; background: #3558ff; border-radius: 4px; padding: 0.3rem; font-size: 0.8rem; }
